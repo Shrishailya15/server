@@ -39,7 +39,7 @@ router.post("/",async (req,res)=>{
         Experience: req.body.experience,
         category: req.body.category,
         aboutCompany:req.body.aboutCompany,
-        aboutInternship:req.body.aboutInternship,
+        aboutInternship:req.body.aboutInternship, 
         Whocanapply: req.body.Whocanapply,
         perks: req.body.perks,
         AdditionalInfo:req.body.AdditionalInfo,

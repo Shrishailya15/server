@@ -8,7 +8,7 @@ router.post("/",async (req,res)=>{
         coverLetter:req.body.coverLetter,
         user:req.body.user,
         company:req.body.company,
-        category:req.body.category,
+        category:req.body.category,   
         body:req.body.body,
         ApplicationId:req.body.ApplicationId
     })

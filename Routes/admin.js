@@ -15,4 +15,4 @@ router.post("/adminLogin", (req,res)=>{
         res.statusCode(401).send("Unauthrized")
     }
 })
-module.exports=router
+module.exports=router 
